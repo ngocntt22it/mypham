@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_media_24"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+        <TextView
+            android:id="@+id/item_tensp"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:text="Mỹ phẩm"
+            android:textColor="#B22222"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- Đường ngang đen trải dài từ viền trên cùng đến viền dưới cùng -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFC1C1"/>
+</LinearLayout>
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:orientation="horizontal"-->
+<!--android:layout_marginTop="15dp"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content">-->
+<!--<ImageView-->
+<!--    android:id="@+id/item_image"-->
+<!--    android:layout_marginLeft="10dp"-->
+<!--    android:src="@drawable/ic_media_24"-->
+<!--    android:layout_width="45dp"-->
+<!--    android:layout_height="45dp"/>-->
+<!--<TextView-->
+<!--    android:id="@+id/item_tensp"-->
+<!--    android:textSize="20sp"-->
+<!--    android:layout_marginLeft="10dp"-->
+<!--    android:text="Mỹ phẩm"-->
+<!--    android:textColor="#B22222"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"/>-->
+
+
+<!--</LinearLayout>-->
